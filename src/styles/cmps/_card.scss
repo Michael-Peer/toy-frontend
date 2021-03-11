@@ -1,0 +1,38 @@
+.box-card {
+
+
+    cursor: pointer;
+
+    h1{
+       margin: 20px;
+       text-transform: capitalize;
+    }
+
+    .el-card__body {
+        padding: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &:hover {
+        background-color: darken(#fff, 30%);
+    }
+
+    a{
+        text-decoration: none;
+        color: #606266
+    }
+
+    .el-button {
+        flex: 1;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+.toy-card-button{
+    width: 100%;
+    display: flex;
+}

@@ -1,0 +1,57 @@
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 2rem 1fr 2rem;
+    text-align: center;
+
+    > * {
+        grid-column: 2;
+    }
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 16px;    
+    
+
+    padding: 0;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    // font-family: Avenir, Helvetica, Arial, sans-serif;
+    // text-align: center;
+    // color: #2c3e50;
+}
+
+nav {
+    padding: 30px;
+}
+
+nav a {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+    color: #42b983;
+}

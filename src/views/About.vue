@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <google-maps />
 </template>
+
+<script>
+import googleMaps from "../cmps/google-maps";
+export default {
+    components: {
+        googleMaps,
+    },
+};
+</script>
+
+<style>
+</style>
